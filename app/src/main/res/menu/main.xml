@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/search"
+        android:title="搜索网络歌曲"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:icon="@mipmap/search"
+        android:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/item_like"
+        android:icon="@mipmap/xin_bai"
+        android:showAsAction="never"
+        android:title="@string/song_like" />
+    <item
+        android:id="@+id/item_least"
+        android:icon="@mipmap/music"
+        android:showAsAction="never"
+        android:title="@string/song_least" />
+
+
+</menu>

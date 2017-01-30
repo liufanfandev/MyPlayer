@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.coding.myplayer">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".util.MyPlayerApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/iverson"
+        android:label="@string/my_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/my_app_name"
+            android:launchMode="standard"
+            android:theme="@android:style/Theme.Holo.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.SEARCH" />/>
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.PlayActivity" />
+        <activity android:name=".activity.PlayLikeActivity"></activity>
+        <activity android:name=".activity.PlayLeastActivity"></activity>
+
+        <service
+            android:name=".activity.PlayService"
+            android:enabled="true"
+            android:exported="true" />
+
+
+    </application>
+
+</manifest>

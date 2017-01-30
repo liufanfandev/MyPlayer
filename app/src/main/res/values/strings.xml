@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="my_app_name">我的播放器</string>
+    <string name="action_contact">Contact</string>
+    <string name="order_play">顺序播放</string>
+    <string name="random_play">随机播放</string>
+    <string name="single_play">单曲循环</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="song_like">喜欢的歌曲</string>
+    <string name="song_least">最近播放</string>
+    <string name="drawer_open">开</string>
+    <string name="drawer_close">关</string>
+
+</resources>

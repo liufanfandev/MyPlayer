@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="20dip"
+        android:layout_marginBottom="2dip"
+        android:layout_marginTop="2dip" >
+
+        <TableRow>
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="日"
+                android:textColor="@color/date_1" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="一"
+                android:textColor="@color/date_2" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="二"
+                android:textColor="@color/date_2" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="三"
+                android:textColor="@color/date_2" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="四"
+                android:textColor="@color/date_2" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="五"
+                android:textColor="@color/date_2" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:text="六"
+                android:textColor="@color/date_1" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
